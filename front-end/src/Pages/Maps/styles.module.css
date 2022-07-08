@@ -1,0 +1,19 @@
+.ContainerMap {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.AsideSearch {
+  z-index: 99;
+  position: absolute;
+  display: flex;
+  width: 30vw;
+  height: auto;
+}
+
+.Content {
+  height: 100vh;
+  width: 100vw;
+}

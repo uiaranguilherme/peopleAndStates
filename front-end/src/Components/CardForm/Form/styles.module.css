@@ -1,0 +1,65 @@
+/*Estilo de todos os Forms*/
+/*State*/
+
+.Buttons{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.ButtonsPerson{
+    display: flex;
+    justify-content:space-between;
+}
+
+.ListDistrict{
+    overflow-y: auto;
+    flex-direction: column;
+    height: auto;
+    max-height: 15rem;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 1.5rem;
+    background-color: var(--background-200);
+}
+
+.ListDistrict h3{
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ListDistrict > div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height : 2rem;
+    border-radius: 25px;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    background-color: var(--background-100);
+}
+
+.ListDistrict > div:hover{
+    border: 1px solid var(--color-100);
+}
+
+.ListDistrict div div{
+    margin-right: 10px;
+}
+
+.ListDistrict div div svg {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.ListDistrict div + div {
+    margin-top: 5px;
+}
+
+.ModalErro{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

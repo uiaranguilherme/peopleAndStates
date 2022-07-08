@@ -1,0 +1,54 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  height: 4rem;
+  width: 100%;
+}
+
+.Container nav {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  padding-bottom: 5px;
+
+  border-bottom: 2px solid var(--background-200);
+}
+
+.Container nav a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: var(--background-100);
+  transition: all 150ms ease-in-out;
+}
+
+.Container nav a:hover {
+  background-color: var(--color-100);
+  color: var(--color-400);
+}
+
+.Container nav a svg {
+  margin-left: 5px;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.Container nav a svg:hover {
+  color: var(--color-400);
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}

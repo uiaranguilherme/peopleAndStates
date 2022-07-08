@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Container section {
+  background-color: var(--background-200);
+  height: 90%;
+  width: 17%;
+  border-radius: 50%;
+  margin: 1rem;
+  border: 1px solid var(--color-100);
+}
+
+.Container div h2 {
+  font-size: 4rem;
+}
+
+.Container div h3 {
+  font-size: 1.5rem;
+}

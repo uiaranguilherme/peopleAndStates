@@ -1,0 +1,23 @@
+.Whapper{
+    z-index: 99;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 43rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 223, 222, 0.8);
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    height : 3rem;
+    width: 100%;
+    border-radius: 23px;
+    background-color: var(--background-200);
+}

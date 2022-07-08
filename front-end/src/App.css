@@ -1,0 +1,9 @@
+.Container {
+  position: relative;
+}
+
+.ContentApp {
+  padding-left: 6rem;
+  height: 100vh;
+  width: 100vw;
+}

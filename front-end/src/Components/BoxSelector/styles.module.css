@@ -1,0 +1,73 @@
+.ContainerSelector{
+    overflow: hidden;
+    width: 17rem;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    border-radius: 20px;
+    background-color: var(--background-400);
+    border: 3px solid var(--background-400);
+}
+
+.InputSelector{
+    z-index: 99;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 3rem;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: var(--background-100);
+}
+
+.InputSelector input{
+    color: var(--text-100);
+    cursor: pointer;
+    height: 100%;
+}
+
+.InputSelector svg{
+    z-index: 99;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.InputSelector:hover{
+    border-color: var(--color-100);
+}
+
+.InputSelector:hover svg{
+    color: var(--color-100);
+}
+
+.ContainerSelector section{
+    overflow-y:auto;
+    position: absolute;
+    width: 16.7rem;
+    height: auto;
+    max-height: 11rem;
+    border-radius: 20px;
+    background-color: var(--background-400);
+}
+
+.ContainerSelector section li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 2rem;
+    margin: 2px 5px;
+    padding-left: 0.8rem;
+    border-radius: 20px;
+}
+
+.ContainerSelector section li svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.ContainerSelector section li:hover{
+    cursor: pointer;
+    color: var(--color-500);
+    background-color: var(--background-200);
+}

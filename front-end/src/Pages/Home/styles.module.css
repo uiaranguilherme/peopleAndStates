@@ -1,0 +1,16 @@
+.ContainerHome {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.Cadastro {
+  width: 49%;
+}
+
+.SearchForm {
+  height: 98%;
+  width: 49%;
+}
